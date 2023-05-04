@@ -30,6 +30,7 @@ export default function App() {
       </AppBar>
 
       <Routes>
+        <Route path="/test-react-repo" element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Page1" element={<Page1 />} />
         <Route path="/Page2" element={<Page2 />} />
