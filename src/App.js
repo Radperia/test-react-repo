@@ -9,7 +9,7 @@ import "./App.css";
 export default function App() {
   return (
     <BrowserRouter>
-      <AppBar position="static">
+      <AppBar position="static" style={{ height: "60px" }}>
         <Toolbar>
           <Typography variant="h6" style={{ flexGrow: 1 }}>
             Test App

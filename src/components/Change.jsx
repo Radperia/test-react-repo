@@ -4,7 +4,7 @@ function Trans() {
   return (
     <motion.div
       className="box"
-      style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}
+      style={{ position: "absolute", top: "40%", left: "40%", transform: "translate(-50%, -50%)" }}
       animate={{
         scale: [1, 2, 2, 1, 1],
         rotate: [0, 0, 180, 180, 0],

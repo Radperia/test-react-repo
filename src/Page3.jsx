@@ -1,6 +1,5 @@
 import { useState, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Html } from "@react-three/drei";
 
 const Box = () => {
   const ref = useRef(null);
@@ -27,12 +26,6 @@ const Box = () => {
         <boxBufferGeometry args={isHovered ? [1.1, 1.1, 1.1] : [1, 1, 1]} />
         <meshLambertMaterial color={isHovered ? 0x9E70DB : 0x00A9E0} />
       </mesh>
-      <Html position={[-2, 1.5, 0]}>
-        <div>
-          <p>Rotating speed: {rotationSpeed.toFixed(3)}</p>
-        </div>
-      </Html>
-
     </>
   );
 };
