@@ -11,9 +11,9 @@ export const Home = () => {
             <title> Home title </title>
           </Helmet>
           <h1>Home</h1>
-          <img src={`${process.env.PUBLIC_URL}/images/bird.jpg`} 
-              alt="Sample" 
-              className="img"
+          <img src={`${process.env.PUBLIC_URL}/images/tiramisu.jpg`}
+            alt="Sample" 
+            className="img"
           />
         </div>
       </Layout>
